@@ -1,0 +1,10 @@
+table {
+	width: 70%;
+}
+
+.titulo {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	background-color: lightblue;
+}
