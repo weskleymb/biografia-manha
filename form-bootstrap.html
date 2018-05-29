@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulário com Bootstrap</title>
+		<link rel="stylesheet" href="resources/css/meucss.css">
+		<link rel="stylesheet" href="resources/css/bootstrap.css">
+	</head>
+	<body>
+		<div class="container"><!-- Inicio Container -->
+			<form method="" action="">
+				<div class="form-group">
+					<label for="email">E-mail</label>
+					<input type="email" class="form-control" id="email" name="email">
+				</div>
+				<div class="form-group">
+					<label for="senha">Senha</label>
+					<input type="password" class="form-control" id="senha" name="senha">
+				</div>
+				<div class="form-group">
+					<label for="cidade">Cidade</label>
+					<select class="form-control">
+						<option value="nat">Natal</option>
+						<option value="rec">Recife</option>
+						<option value="bsb">Brasilia</option>
+					</select>
+				</div>
+			</form><!-- Fim do Formulário -->
+
+			<!-- Carrossel -->
+			<div id="exemplo-carrossel" class="carousel slide" data-ride="carousel" style="width: 300px; height: 200px;">
+				<div class="carousel-inner">
+				    <div class="carousel-item active">
+						<img class="d-block w-100" 
+							src="resources/img/arara.jpg" 
+							alt="Imagem 1" 
+						/>
+				    </div>
+				    <div class="carousel-item">
+				    	<img class="d-block w-100" 
+					    	src="resources/img/mico.jpg" 
+					    	alt="Imagem 2" 
+				    	/>
+				    </div>
+				    <div class="carousel-item">
+				    	<img class="d-block w-100" 
+					    	src="resources/img/tartaruga.jpg" 
+					    	alt="Imagem 3" 
+				    	/>
+				    </div>
+				</div>
+
+				<a class="carousel-control-prev" 
+					href="#exemplo-carrossel" 
+					role="button" 
+					data-slide="prev">
+			    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    	<span class="sr-only">Anterior</span>
+			  	</a>
+			  	<a class="carousel-control-next" 
+				  	href="#exemplo-carrossel" 
+				  	role="button" 
+				  	data-slide="next">
+			    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    	<span class="sr-only">Próximo</span>
+			  	</a>
+			</div>
+
+		</div><!-- Fim Container -->
+		<script src="resources/js/jquery.js"></script>
+		<script src="resources/js/bootstrap.js"></script>
+	</body>
+</html>
